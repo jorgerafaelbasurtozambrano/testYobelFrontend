@@ -1,0 +1,141 @@
+.form-container {
+    font: 95% Arial, Helvetica, sans-serif;
+  max-width: 500px;
+  padding: 16px;
+  /* margin: 10px auto; */
+  background: #f7f7f7;
+  }
+  h1 {
+    background: #b3d8cf;
+   
+    font-size: 140%;
+    font-weight: 200;
+    width: 102%;
+    padding: 3%;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+  }
+  h2 {
+    background: #b3d8cf;
+   
+    font-size: 140%;
+    font-weight: 200;
+    width: 148%;
+    padding: 3%;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+  }
+  .btn-send {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #b3d8cf;
+    border-bottom: 2px solid #b3d8cf;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    font-size: 15px;
+  }
+  input[type="text"],
+ input[type="date"],
+ select[type="email"],
+ textarea {
+  -webkit-transition: all 0, 30s ease-in-out;
+  transition: all 0, 30s ease-in-out;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+  .alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+    border-color: #f5c6cb;
+    margin-bottom: 5px;
+  }
+
+  .container-error-message {
+    padding: 3px;
+  }
+  
+ .container1{
+    width: 400px;
+    float: left;
+    margin-left: 15px;
+
+  
+ }
+ 
+ .container2{
+    width: 1000px;
+    padding-right: 255px;
+    margin-left: 500px;
+    margin-top: 15px;
+  
+    margin-top: 40px;
+   
+ }
+ .container{
+    width: 1000px;
+  
+    
+   
+ }
+ 
+  table {
+    table-layout: fixed;
+    width: 150%;
+    border-collapse: collapse;
+ 
+  }
+  
+  
+  th, td {
+    width: 50%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+ }
+ .button1 {background-color: #4CAF50;}
+ section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  
+  .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
